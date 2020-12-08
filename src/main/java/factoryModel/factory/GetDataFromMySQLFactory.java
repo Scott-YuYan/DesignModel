@@ -1,8 +1,8 @@
 package factoryModel.factory;
 
+import factoryModel.factoryInterface.DataReader;
 import factoryModel.impl.ReadDataFromMySQL;
-import factoryModel.inreface.DataReader;
-import factoryModel.inreface.DataReaderFactory;
+import factoryModel.factoryInterface.DataReaderFactory;
 
 public class GetDataFromMySQLFactory implements DataReaderFactory {
     @Override

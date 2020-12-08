@@ -1,6 +1,6 @@
 package factoryModel.impl;
 
-import factoryModel.inreface.DataReader;
+import factoryModel.factoryInterface.DataReader;
 
 public class ReadDataFromRedis implements DataReader {
     @Override

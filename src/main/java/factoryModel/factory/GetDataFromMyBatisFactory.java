@@ -1,8 +1,8 @@
 package factoryModel.factory;
 
 import factoryModel.impl.ReadDataFromMyBatis;
-import factoryModel.inreface.DataReader;
-import factoryModel.inreface.DataReaderFactory;
+import factoryModel.factoryInterface.DataReader;
+import factoryModel.factoryInterface.DataReaderFactory;
 
 public class GetDataFromMyBatisFactory implements DataReaderFactory {
     @Override
