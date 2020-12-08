@@ -1,4 +1,4 @@
-package factoryModel.inreface;
+package factoryModel.factoryInterface;
 
 public interface DataReader {
     /**

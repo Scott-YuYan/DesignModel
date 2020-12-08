@@ -2,8 +2,8 @@ package factoryModel;
 
 import factoryModel.factory.GetDataFromMyBatisFactory;
 import factoryModel.factory.GetDataFromRedisFactory;
-import factoryModel.inreface.DataReader;
-import factoryModel.inreface.DataReaderFactory;
+import factoryModel.factoryInterface.DataReaderFactory;
+import factoryModel.factoryInterface.DataReader;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +18,5 @@ public class Main {
         DataReaderFactory dataReaderFactory3 = new GetDataFromRedisFactory();
         DataReader dataReader3 = dataReaderFactory3.getDataReader();
         dataReader3.getData();
-
-
     }
 }
